@@ -50,20 +50,15 @@ conda install --file requirements.txt
 
 ## Business Dashboard
 
-Dashboard bisnis telah dibuat menggunakan Streamlit untuk memvisualisasikan data attrition karyawan dan hasil prediksi model machine learning. Dashboard ini memungkinkan pengguna untuk:
+Dashboard bisnis telah dibuat menggunakan Google Looker Studio untuk memvisualisasikan data attrition karyawan. Dashboard ini memungkinkan pengguna untuk:
 
 1. Melihat metrik utama seperti jumlah karyawan, tingkat attrition, dan persentase karyawan yang bekerja lembur
-2. Menganalisis faktor-faktor yang mempengaruhi attrition seperti peran pekerjaan, status lembur, kelompok pendapatan, dan departemen
-3. Melihat prediksi risiko attrition untuk setiap karyawan berdasarkan model machine learning
-4. Memfilter data berdasarkan departemen dan peran pekerjaan untuk analisis yang lebih mendalam
+2. Menganalisis data attrition berdasarkan job role pada setiap departement
+3. Menganalisis data attrition berdasarkan umur karyawan
+4. Menganalisis data attrition berdasarkan income karyawan
+5. Memfilter data berdasarkan departemen untuk analisis yang lebih mendalam
 
-Dashboard dapat diakses dengan menjalankan file `attrition_dashboard.py` menggunakan Streamlit:
-
-```bash
-streamlit run attrition_dashboard.py
-```
-
-Selain streamlit dashboard, saya telah membuat dashboard Looker Studio yang dapat diakses di link berikut: [Attrition Dashboard](https://lookerstudio.google.com/reporting/1acf7dee-e6a6-447a-a2fa-96ede9a00e6c)
+Dashboard dapat diakses melalui link berikut: [Attrition Dashboard](https://lookerstudio.google.com/reporting/1acf7dee-e6a6-447a-a2fa-96ede9a00e6c)
 
 ![Dashboard Screenshot](./ikhwananda-dashboard.png)
 
